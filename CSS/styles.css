@@ -110,6 +110,33 @@ h4 {
 	font-family: 'Comfortaa';
 }
 
+
+#phase4 {
+	display: flex;
+	
+
+}
+#lofi {
+float:left;
+}
+
+#phase5 {
+display:flex;
+flex-direction: row-reverse;
+}
+#midfi {
+float:right;
+}
+
+#phase6 { 
+	display: flex;
+
+}
+#hifi {
+float:left;
+}
+
+
 /*@media only screen and (max-width: 600px) {
     .container {
       display: grid;
