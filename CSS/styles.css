@@ -12,6 +12,9 @@
 	overflow: hidden;
 }
 
+html {
+	scroll-behavior: smooth;
+}
 
 
 .navbar a:hover {
