@@ -133,12 +133,24 @@ float:left;
 
 #phase6 { 
 	display: flex;
-
 }
 #hifi {
 float:left;
 }
 
+#lofi, #midfi, #hifi {
+	width: 220px;
+}
+
+#phase1, #phase2, #phase3, #phase4, #phase5, #phase6 {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+h6 {
+	font-weight: 400;
+}
+	
 
 /*@media only screen and (max-width: 600px) {
     .container {
@@ -456,5 +468,19 @@ input[data-description="2000"]:checked~#timeline-descriptions-wrapper p[data-des
 @media (max-width: 400px) {
 	.input-flex-container {
 		width: 300px;
+	}
+}
+
+@media (max-width: 600px) {
+	#phase4, #phase5,#phase6 {
+		display:table-row-group ;
+		padding-top: 60px ;
+		padding-bottom: 100px ;
+	}
+	#lofi, #midfi, #hifi {
+		
+		margin-left: auto;
+		margin-right: auto;
+		
 	}
 }
