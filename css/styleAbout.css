@@ -1,0 +1,140 @@
+html {
+    height: 100%;
+}
+
+/*navbar*/
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navbar {
+    flex-direction: row;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    background-color: #313639;
+    overflow: hidden;
+}
+
+
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+.navbar a:active {
+    background-color: #04AA6D;
+    color: white;
+
+}
+
+.navbar .icon {
+    display: none;
+}
+
+
+.ni {
+    background: linear-gradient(#313639, #313639 50%, #2ecc71 50%, #2ecc71);
+    background-size: 100% 200%;
+    transition: background 1s;
+}
+
+.ni:hover {
+    background-position: 100% -100%;
+}
+
+ul {
+    width: 50%;
+    padding: 1%;
+}
+
+.img {
+    text-align: center;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+/*heroImg*/
+.heroImg {
+    padding: 25px;
+    margin: 0 auto;
+    overflow: auto;
+    width: 80%;
+
+}
+
+.content {
+    width: 60%;
+    margin: 0 auto;
+    min-height: 100%;
+    float: right;
+    font-family: 'Comfortaa', cursive;
+}
+
+.headshot {
+    float: left;
+}
+
+footer {
+    background-color: #373788;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%;
+    justify-self: flex-end;
+    flex-grow: 1;
+
+    margin-top: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+
+#ftCon {
+    font-family: 'comfortaa';
+}
+
+
+footer {
+    background-color: #313639;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%;
+    justify-self: flex-end;
+    flex-grow: 1;
+    padding: 10px;
+
+    margin-top: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+/*@media only screen and (max-width: 600) {
+flex-direction: column;
+width: 100%;
+grid-template-columns: ;
+grid-template-areas: ;
+grid-template-rows:  ;
+
+
+}
+font-family: 'Comfortaa', cursive;
+background-color: #F5F5F5;
