@@ -194,6 +194,8 @@ h4 span {
 	white-space: nowrap;
 }
 
+p {}
+
 .flex-parent {
 	display: flex;
 	flex-direction: column;
