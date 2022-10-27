@@ -152,6 +152,7 @@ float:left;
 
 h6 {
 	font-weight: 400;
+	font-size: 16pt;
 }
 	
 
@@ -194,7 +195,11 @@ h4 span {
 	white-space: nowrap;
 }
 
-p {}
+p, h6 {
+	max-width: 75ch;
+	line-height: 150%;
+	font-size: 16pt;
+}
 
 .flex-parent {
 	display: flex;
