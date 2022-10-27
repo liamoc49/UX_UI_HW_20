@@ -91,7 +91,7 @@ h1 {
 #myUL li::after {
     content: '';
     position: absolute;
-    width: 110%;
+    width: 90%;
     height: 4px;
     border-radius: 4px;
     background-color: #18272F;
