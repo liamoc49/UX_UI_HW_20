@@ -71,7 +71,7 @@ h1 {
     border-right-style: solid;
 }
 
-li {
+#myUL li {
     color: #18272F;
     position: relative;
     text-decoration: none;
@@ -84,11 +84,11 @@ li {
     margin-bottom: 20px;
 }
 
-li::before {
+#myUL li::before {
     content: "_ "
  }
 
-li::after {
+#myUL li::after {
     content: '';
     position: absolute;
     width: 110%;
@@ -102,7 +102,7 @@ li::after {
     transition: transform .3s ease-in-out;
 }
 
-li:hover::after {
+#myUL li:hover::after {
     transform-origin: left;
     transform: scaleX(1);
 }
